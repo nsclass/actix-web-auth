@@ -1,0 +1,20 @@
+[package]
+name = "actix-web-auth"
+version = "0.1.0"
+authors = ["Nam Seob Seo <nsclass@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2"
+actix-rt = "1"
+config = "0.10"
+dotenv = "0.15"
+serde = {version = "1", features = ["derive"] }
+eyre = "0.6"
+color-eyre = "0.5"
+tracing = "0.1"
+tracing-futures = "0.2"
+tracing-log = {version = "0.1", features=["env_logger"] }
+tracing-subscriber = "0.2"
